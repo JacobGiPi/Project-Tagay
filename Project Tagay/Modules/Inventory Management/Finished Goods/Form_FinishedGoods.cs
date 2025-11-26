@@ -16,5 +16,10 @@ namespace Project_Tagay.Modules.Inventory_Management.Finished_Goods
         {
             InitializeComponent();
         }
+
+        private void Form_FinishedGoods_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

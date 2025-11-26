@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form_StockControl
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -131,7 +131,7 @@
             dgvProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvProducts.Location = new Point(34, 352);
             dgvProducts.Name = "dgvProducts";
-            dgvProducts.Size = new Size(493, 150);
+            dgvProducts.Size = new Size(434, 150);
             dgvProducts.TabIndex = 9;
             dgvProducts.CellContentClick += dgvProducts_CellContentClick;
             // 
@@ -185,7 +185,7 @@
             label6.TabIndex = 15;
             label6.Text = "Expiration Date:";
             // 
-            // Form_StockControl
+            // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -206,7 +206,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form_StockControl";
+            Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgvProducts).EndInit();

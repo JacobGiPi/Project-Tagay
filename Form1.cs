@@ -2,10 +2,10 @@ using DistilleryManagementSystem;
 
 namespace WinFormsApp1
 {
-    public partial class Form_StockControl : Form
+    public partial class Form1 : Form
     {
         List<Product> products = new List<Product>();
-        public Form_StockControl()
+        public Form1()
         {
             InitializeComponent();
             SetupCategory();
